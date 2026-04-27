@@ -1,4 +1,5 @@
-# LangchainRAG
+Building a roster in the NBA is a high-stakes puzzle where teams must weigh player performance, fit, and long-term impact, yet much of this decision-making is fragmented across stats dashboards and qualitative scouting reports. To address this, I developed an AI-powered **GM Decision Assistant** that uses retrieval-augmented generation (RAG) to unify structured player statistics, advanced analytics, and unstructured scouting insights into a single decision-support system. The backend leverages LangChain for orchestration, a vector database (FAISS/Chroma) for semantic player similarity search, and an XGBoost model to generate trade fit scores and projected impact. A data pipeline built with pandas and scikit-learn transforms player metrics such as TS%, PER, and usage rate into model-ready features. The system enables users to ask complex questions like “Should we trade for Player X?” and returns explainable recommendations with contextual evidence, trade-offs, and confidence levels. This project demonstrates the integration of LLM-based reasoning with traditional machine learning to deliver interpretable, real-world decision intelligence.
+
 
 ## Run "pip install -r requirements.txt"
 
